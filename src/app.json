@@ -1,0 +1,52 @@
+{
+  "pages": [
+    "pages/login/main",
+    "pages/index/main",
+    "pages/order/main",
+    "pages/mine/main",
+    "pages/child-order/main",
+    "pages/order-pay/main",
+    "pages/my-team/main",
+    "pages/my-money/main",
+    "pages/wait-pay/main",
+    "pages/wait-receive/main",
+    "pages/wait-complete/main",
+    "pages/manage-address/main",
+    "pages/person/main",
+    "pages/personInfo/main",
+    "pages/service/main",
+    "pages/update-psw/main",
+    "pages/update-tel/main",
+    "pages/group-order/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Gnx-System",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#666",
+    "backgroundColor": "#fafafa",
+    "selectedColor": "#b4282d",
+    "borderStyle": "black",
+
+    "list": [{
+      "text": "首页",
+      "pagePath": "pages/index/main",
+      "iconPath": "static/tab-bar/home.png",
+      "selectedIconPath": "static/tab-bar/home-active.png"
+    },{
+      "text": "订单",
+      "pagePath": "pages/order/main",
+      "iconPath": "static/tab-bar/cart.png",
+      "selectedIconPath": "static/tab-bar/cart-active.png"
+    },{
+      "text": "我的",
+      "pagePath": "pages/mine/main",
+      "iconPath": "static/tab-bar/user.png",
+      "selectedIconPath": "static/tab-bar/user-active.png"
+    }],
+    "position": "bottom"
+  }
+}
